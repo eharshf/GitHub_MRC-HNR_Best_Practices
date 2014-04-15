@@ -14,7 +14,7 @@ Tell git to go get the "upstream remote", in our case this is the MRC-HNR parent
 ``` git
 git fetch upstream
 # in git language: grabs upstream remote's branches
-'''
+```
 
 You can now take a look at the changes we, the administrators, have made.
 
@@ -23,16 +23,16 @@ git diff --stat remotes/upstream/master master
 # compares the two branches:
 # 1) remotes/upstream/master <- which is the parent repository
 # 2) master <- which is our own forked repository that was cloned onto the machine we are working on
-'''
+```
 
 If there are any insertions or deletions you can run the previous command without the "--stat" argument to see details about the specific differences between your local copy and the parent MRC-HNR repository. To merge your copy with the parent MRC-HNR repository:
 
-''' git
+``` git
 git merge upstream/master
-'''
+```
 
 This will make any changes to your own repository currently on your computer (on currently active branch, which is the master branch). To have those changes added to your own GitHub fork, simply run:
 
-''' git 
+``` git 
 git push origin master
-'''
+```
