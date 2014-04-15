@@ -36,3 +36,5 @@ This will make any changes to your own repository currently on your computer (on
 ``` git 
 git push origin master
 ```
+
+If you go look at your own GitHub repository you should see the changes added to it.
