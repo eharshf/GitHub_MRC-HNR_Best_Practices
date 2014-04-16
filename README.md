@@ -10,7 +10,7 @@ GitHub is a website that has been optimized to store, share, and merge collabora
 
 First we are going to use this repository itself to learn the basics about how to pull down the source repository and do some work with it. But first we need to set up Git on our local machine, the thing you are staring at right now.
 
-On windows, go here: git.com and download the latest version of git for your operating system. Use the installer to get everything up and running. On debian based linux you can just type the following in a terminal.
+On windows, go here: http://git-scm.com/ and download the latest version of git for your operating system. Use the installer to get everything up and running. On debian based linux you can just type the following in a terminal.
 
 ``` shell
 sudo apt-get install git
