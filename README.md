@@ -1,14 +1,23 @@
 GitHub_MRC-HNR_Best_Practices
 =============================
 
-Introduction to using Git for scientists
+Introduction to using Git and GitHub for scientists
 ----------------------------------------
 
-Git and GitHub are two different things. Git has a lot of functionality and is used as a version control system that is flexible enough to handle many people working on the same documents all at once. The basic unit of Git is the repository. It is a directory that contains the code, the history of all changes to code, and can contain different off-shoots from the main source code. The off-shoots from the main source code are called branches.
+Git is a version control system, read more about it here: http://git-scm.com/ . We are using Git as a flexible tool to handle the complicatedness that comes from having many scientists using code to processing chemical data, while at the same time other scientist are modifying the source code. If you don't really care all that much about code development, that is okay. If you use the source code, we are asking you to keep in mind the underlying process of software development and communicate your own expertise in a way that helps us organize and streamline our process so that newer, better, and more flexibly code can be released to you.
 
-GitHub is a website that has been optimized to store, share, and merge collaborators Git repositories. For the most part our job as owners/admin is to do the merging and provide stable source code that anyone with access can hack away at without destroying the source code. At first you will want to simply know how to pull down the source code you want to run on your local machine. As you get more comfortable and start to make changes to your own copy you may think that some of the changes you have made could be included in the source code. Things like documentation, papers, and example data or figures are essential to good scientific source code! Throw them our way!
+The basic unit of Git is the repository. It is a directory on your local computer that contains the files that come together to perform some sort of program. Using Git, the history of all changes to code and all different off-shoots from the main source code are easily documented and organized.
 
-First we are going to use this repository itself to learn the basics about how to pull down the source repository and do some work with it. But first we need to set up Git on our local machine, the thing you are staring at right now.
+GitHub is a website, https://github.com, that has been optimized to store, share, and merge Git repositories using the internet. If you have ever downloaded a file from the internet, you can start to use GitHub. The help files in this repository are a modification of material already available to software enginners, but tailored to the scientist.
+
+My job as owner/admin is to provide stable source code and let the code be easily evaluated and developed. Git and GitHub lets anyone (who has access) hack away at the fundamental source code, whithout asking my permission first! So hack away! And you don't really need to know all that much software engineering, things like documentation, papers, and example data or figures are essential to good scientific source code, so please submit them where ever you think they should be.
+
+At first you will want to simply know how to pull down the source code from the internet and run it on your local machine. As you get more comfortable and start to make changes to your own copy of the code (even documentation and figures or links to example data), you may think that some of the changes you have made could be included in the source code. So then you would like to let us know that you have some changes that you want to submit. Git and GitHub makes this very easy.
+
+Installation of Git
+-------------------
+
+Lets set up Git.
 
 On windows, go here: http://git-scm.com/ and download the latest version of git for your operating system. Use the installer to get everything up and running. On debian based linux you can just type the following in a terminal.
 
