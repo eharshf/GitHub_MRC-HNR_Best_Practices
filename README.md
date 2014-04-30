@@ -12,7 +12,7 @@ GitHub is a website, https://github.com, that has been optimized to store, share
 
 My job as owner/admin is to provide stable source code and let the code be easily evaluated and developed. Git and GitHub lets anyone (who has access) hack away at the fundamental source code, whithout asking my permission first! So hack away! And you don't really need to know all that much software engineering, things like documentation, papers, and example data or figures are essential to good scientific source code, so please submit them where ever you think they should be.
 
-At first you will want to simply know how to pull down the source code from the internet and run it on your local machine. As you get more comfortable and start to make changes to your own copy of the code (even documentation and figures or links to example data), you may think that some of the changes you have made could be included in the source code. So then you would like to let us know that you have some changes that you want to submit. Git and GitHub makes this very easy.
+At first you will want to simply know how to pull down the source code from the internet and run it on your local machine. As you get more comfortable and start to make changes to your own copy of the code (even documentation and figures or links to example data), you may think that some of the changes you have made could be included in the source code, so you would like to let us know that you have some changes that you want to submit. Git and GitHub makes this very easy.
 
 Installation of Git
 -------------------
@@ -42,19 +42,19 @@ We are going to use this repository as an example. First navigate to https://git
 There are a couple ways to pull down a copy of the repository from GitHub to your computer. We are going to learn the geekiest way. Not just the geekiest, it's also the most flexible and the way that Git was designed to work. Open up Git Bash on your computer and set up your user name and email for your computer with.
 
 ``` git
-git config --global user.name <yourname>
-git config --global user.email <youremail>
+git config --global user.name "Luke Marney"
+git config --global user.email Luke.Marney@mrc-hnr.cam.ac.uk
 ```
 
-With <yourname> and <youremail> replaced by your own. If you use spaces in your name, be sure to put your name in quotations.
+Be sure to replace your own name and email for mine.
 
-Go to the front page of the repository you forked above, locate the *HTTPS clone URL* on the lower right. Copy the URL in the box by clicking the copy button next to the box, then go back to the Git Bash terminal. Navigate to a location you would like to put the repository, for this example we navigate to my home directory with *cd*
+Go to the front page of the repository you forked above, locate the **HTTPS clone URL** on the lower right. Copy the URL in the box by clicking the copy button next to the box, then go back to the Git Bash terminal. Navigate to a location you would like to put the repository, for this example we navigate to my home directory with **cd**
 
 ``` git
 cd /c/Users/marneyl/
 ```
 
-Then we clone the repository using the *git clone* command:
+Then we clone the repository using the **git clone** command:
 
 ``` git
 git clone https://github.com/marneylc/GitHub_MRC-HNR_Best_Practices.git
