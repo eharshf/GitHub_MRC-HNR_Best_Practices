@@ -29,3 +29,36 @@ On mac, you can get git by brew
 ``` shell
 brew install git
 ```
+
+Then be sure you have a GitHub account and email one of the admins to be added to the MRC-HNR group on GitHub.
+
+Get your own copy of a repository
+---------------------------------
+
+Once git has been installed, we need to do two things: Fork and clone!
+
+We are going to use this repository as an example. First navigate to https://github.com/MRC-HNR/GitHub_MRC-HNR_Best_Practices and click the Fork button in the top right hand corner. Fork the repository to your own GitHub account. What did this do? Now you have a complete copy of the source repository on your own GitHub account that you can play with (and completely destroy if you want).
+
+There are a couple ways to pull down a copy of the repository from GitHub to your computer. We are going to learn the geekiest way. Not just the geekiest, it's also the most flexible and the way that Git was designed to work. Open up Git Bash on your computer and set up your user name and email for your computer with.
+
+``` git
+git config --global user.name <yourname>
+git config --global user.email <youremail>
+```
+
+With <yourname> and <youremail> replaced by your own. If you use spaces in your name, be sure to put your name in quotations.
+
+Go to the front page of the repository you forked above, locate the *HTTPS clone URL* on the lower right. Copy the URL in the box by clicking the copy button next to the box, then go back to the Git Bash terminal. Navigate to a location you would like to put the repository, for this example we navigate to my home directory with *cd*
+
+``` git
+cd /c/Users/marneyl/
+```
+
+Then we clone the repository using the *git clone* command:
+
+``` git
+git clone https://github.com/marneylc/GitHub_MRC-HNR_Best_Practices.git
+```
+
+Now you are all set up to run and hack away at the code. Be sure to check out the other documents in the folder to find out how to push changes you make to the local repository up to GitHub and check the upstream remote (the source MRC-HNR repository) for changes.
+
