@@ -25,7 +25,7 @@ On windows, go here: http://git-scm.com/ and download the latest version of git 
 sudo apt-get install git
 ```
 
-On mac, you can get git by brew
+On mac, you can get git from http://git-scm.com/ or install it by brew
 ``` shell
 brew install git
 ```
