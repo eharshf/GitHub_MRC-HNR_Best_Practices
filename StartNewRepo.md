@@ -22,9 +22,15 @@ cd newrepository
 touch README.md
 ```
 
-Then make sure you are in the "newrepository" directory and initiate a 
-git repository, add all changes in that repository for commiting, and 
-then commit the changes with a comment letting you know what you did.
+You can always just do this in your file manager, just be sure to use the 
+**cd** command followed by the directory to navigate to. The **pwd** 
+command lets you know where you are, and **ls** lets you know what files
+are in your current directory.
+
+
+Make sure you are in the "newrepository" directory (use pwd). To initiate 
+a git repository, add all changes in that repository for commiting, and 
+then commit the changes with a comment letting you know what you did:
 
 ``` git 
 git init
