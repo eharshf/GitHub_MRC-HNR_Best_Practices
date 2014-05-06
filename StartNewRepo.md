@@ -1,3 +1,6 @@
+Create your own repository
+-------------------------
+
 So you want to make your own repository and use it to store some info!
 
 There are only a few commands you need to know. First we need make sure 
