@@ -42,5 +42,5 @@ git config --global user.email johndoe@example.com
 Then be sure to set the default text editor to an easy to use terminal text editor. The default is Vi, which is an awesome text editor, but has quite a learning curve. I recommend setting the default to nano and then you can learn Vi if you would like and set it back.
 
 ``` git
-git config ==global core.editor nano
+git config --global core.editor nano
 ```
