@@ -25,11 +25,12 @@ On windows, go here: http://git-scm.com/ and download the latest version of git 
 sudo apt-get install git
 ```
 
-On mac, you can get git by brew
+On mac, you can get git from http://git-scm.com/ or install it by brew
 ``` shell
 brew install git
 ```
 
+<<<<<<< HEAD
 Then be sure you have a GitHub account and email one of the admins to be added to the MRC-HNR group on GitHub.
 
 Get your own copy of a repository
@@ -62,3 +63,19 @@ git clone https://github.com/marneylc/GitHub_MRC-HNR_Best_Practices.git
 
 Now you are all set up to run and hack away at the code. Be sure to check out the other documents in the folder to find out how to push changes you make to the local repository up to GitHub and check the upstream remote (the source MRC-HNR repository) for changes.
 
+=======
+Configure Git
+-------------
+
+Set up your user name and email for Git:
+``` git
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
+Then be sure to set the default text editor to an easy to use terminal text editor. The default is Vi, which is an awesome text editor, but has quite a learning curve. I recommend setting the default to nano and then you can learn Vi if you would like and set it back.
+
+``` git
+git config --global core.editor nano
+```
+>>>>>>> upstream/master
